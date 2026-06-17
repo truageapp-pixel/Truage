@@ -111,46 +111,6 @@ export default function Home() {
       <section className="feat" id="features">
         <div className="container feat__layout">
           <div className="feat__text" data-fade>
-            <h2 className="feat__h2">No more guessing your <span className="text-burgundy">skin health</span>.</h2>
-            <p className="feat__p">
-              Stop wondering if your routine is working. Truage uses <strong>clinical-grade AI</strong> to scan your face, analyzing <strong>42 unique biomarkers</strong>—from elasticity and moisture to UV damage and pigmentation.
-            </p>
-            <p className="feat__p">
-              Get an instant, objective <strong>Truage Score</strong> every time you scan.
-            </p>
-          </div>
-          <div className="feat__img-wrap" data-fade>
-            <div className="feat__card-phone">
-              <img src="/feature-skin-age.png" alt="Skin Age Results" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ═══ FEATURES SPLIT 2 (Reversed) ═══ */}
-      <section className="feat">
-        <div className="container feat__layout">
-          <div className="feat__img-wrap" style={{ order: -1 }} data-fade>
-            <div className="feat__card-phone feat__card-phone--right">
-              <img src="/feature-shelf.png" alt="Digital Shelf" />
-            </div>
-          </div>
-          <div className="feat__text" data-fade>
-            <h2 className="feat__h2">Set your <span className="text-burgundy">goals</span> and track your <span className="text-gradient">routine</span>.</h2>
-            <p className="feat__p">
-              Build your <strong>Digital Shelf</strong>. Log your exact AM and PM routines, set consistency goals, and build your streaks.
-            </p>
-            <p className="feat__p">
-              Truage connects the dots between the products you use every day and the <strong>real-world changes</strong> happening in your skin.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* ═══ FEATURES SPLIT 3 ═══ */}
-      <section className="feat">
-        <div className="container feat__layout">
-          <div className="feat__text" data-fade>
             <h2 className="feat__h2">See your <span className="text-gradient">pace of aging</span>.</h2>
             <p className="feat__p">
               Your Dashboard gives you the complete picture. Track your <strong>Elasticity, Moisture, and Skin Age</strong> daily.
@@ -162,6 +122,46 @@ export default function Home() {
           <div className="feat__img-wrap" data-fade>
             <div className="feat__card-phone">
               <img src="/feature-home.png" alt="Progress Tracking" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ═══ FEATURES SPLIT 2 (Reversed) ═══ */}
+      <section className="feat">
+        <div className="container feat__layout">
+          <div className="feat__img-wrap" style={{ order: -1 }} data-fade>
+            <div className="feat__card-phone feat__card-phone--right">
+              <img src="/feature-skin-age.png" alt="Skin Age Results" />
+            </div>
+          </div>
+          <div className="feat__text" data-fade>
+            <h2 className="feat__h2">No more guessing your <span className="text-burgundy">skin health</span>.</h2>
+            <p className="feat__p">
+              Stop wondering if your routine is working. Truage uses <strong>clinical-grade AI</strong> to scan your face, analyzing <strong>42 unique biomarkers</strong>—from elasticity and moisture to UV damage and pigmentation.
+            </p>
+            <p className="feat__p">
+              Get an instant, objective <strong>Truage Score</strong> every time you scan.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ═══ FEATURES SPLIT 3 ═══ */}
+      <section className="feat">
+        <div className="container feat__layout">
+          <div className="feat__text" data-fade>
+            <h2 className="feat__h2">Set your <span className="text-burgundy">goals</span> and track your <span className="text-gradient">routine</span>.</h2>
+            <p className="feat__p">
+              Build your <strong>Digital Shelf</strong>. Log your exact AM and PM routines, set consistency goals, and build your streaks.
+            </p>
+            <p className="feat__p">
+              Truage connects the dots between the products you use every day and the <strong>real-world changes</strong> happening in your skin.
+            </p>
+          </div>
+          <div className="feat__img-wrap" data-fade>
+            <div className="feat__card-phone">
+              <img src="/feature-shelf.png" alt="Digital Shelf" />
             </div>
           </div>
         </div>
