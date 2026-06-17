@@ -75,14 +75,15 @@ export default function Home() {
 
             <h1 className="hero__h1" data-fade data-d="1">
               Meet Truage.<br />
-              Know your real <span className="text-gradient">skin age</span>.
+              How fast are you <span className="text-gradient">really aging?</span>
             </h1>
             <p className="hero__p" data-fade data-d="2">
-              Stop guessing if your expensive routines are paying off. Truage uses <strong>clinical-grade AI</strong> to track your true skin health, giving you absolute proof that your skincare works.
+              Go beyond the calendar. Use AI facial analysis to reveal your biological age and see if your skincare routine is actually working.
             </p>
 
-            <div className="hero__ctas" data-fade data-d="3">
-              <AppStoreBadge width={160} id="hero-badge" />
+            <div className="hero__ctas" data-fade data-d="3" style={{ display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
+              <a href="#features" className="btn-primary">Find Out Your Age</a>
+              <AppStoreBadge width={135} id="hero-badge" />
             </div>
           </div>
 
