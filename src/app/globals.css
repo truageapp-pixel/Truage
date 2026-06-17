@@ -335,18 +335,32 @@ body {
   .hero__text { order: 2; }
   .hero__vis { 
     order: 1; 
-    justify-content: center; 
-    height: auto; 
-    padding: 20px 0;
+    height: 480px; 
+    padding: 0;
+    max-width: 480px;
+    margin: 0 auto;
+    position: relative;
   }
   .hero__phone { 
-    position: relative; 
-    left: auto !important; 
-    top: auto !important; 
-    transform: none !important; 
-    margin: 0 auto; 
+    width: 200px !important;
+    height: 414px !important;
+    border-width: 6px !important;
+    border-radius: 30px !important;
   }
-  .hero__phone-2, .hero__arrow { display: none; }
+  .hero__phone-1 {
+    left: 5% !important;
+    top: 40px !important;
+  }
+  .hero__phone-2 {
+    left: auto !important;
+    right: 5% !important;
+    top: 0 !important;
+  }
+  .hero__arrow {
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 60px !important;
+  }
   
   .feat__text { order: 2; }
   .feat__img-wrap { order: 1 !important; }
@@ -366,6 +380,16 @@ body {
     max-width: 280px; 
     transform: none !important; 
     margin: 0 auto; 
+  }
+  .hero__vis {
+    height: 380px;
+  }
+  .hero__phone {
+    width: 160px !important;
+    height: 331px !important;
+  }
+  .hero__arrow {
+    width: 50px !important;
   }
 }
 
