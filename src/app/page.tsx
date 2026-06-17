@@ -78,7 +78,7 @@ export default function Home() {
               How fast are you <span className="text-gradient">really aging?</span>
             </h1>
             <p className="hero__p" data-fade data-d="2">
-              Go beyond the calendar. Truage analyzes <strong>42 facial biomarkers</strong> to reveal your biological skin age—delivering clinical-grade proof that your skincare works.
+              Go beyond the calendar. Truage analyzes <strong>42 facial biomarkers</strong> to reveal your biological skin age—so you can stop wasting hundreds on products that aren't actually working.
             </p>
 
             <div className="hero__ctas" data-fade data-d="3">
