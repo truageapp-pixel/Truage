@@ -408,7 +408,6 @@ body {
   
   .proof-pill { display: flex; width: fit-content; margin: 0 auto 24px; }
   .influencers__grid { grid-template-columns: 1fr; max-width: 400px; margin: 0 auto; }
-  .nav__right { display: none; }
 }
 
 @media (max-width: 600px) {
