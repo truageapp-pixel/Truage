@@ -74,12 +74,11 @@ export default function Home() {
             </div>
 
             <h1 className="hero__h1" data-fade data-d="1">
-              Meet Truage<br />
-              Track your <span className="text-gradient">skin age</span><br />
-              with just a selfie
+              Proof your skincare is <br />
+              <span className="text-gradient">slowing down time</span>.
             </h1>
             <p className="hero__p" data-fade data-d="2">
-              Meet Truage, the AI-powered app for clinical-grade skin tracking. Snap a selfie, log your daily products, and let our AI analyze <strong>42 biomarkers</strong> to give you instant insights into your skin's health.
+              No more wondering if those expensive serums are actually doing their job. Truage uses <strong>clinical-grade AI</strong> to track your biological skin age—giving you the ultimate peace of mind that your routine is working.
             </p>
 
             <div className="hero__ctas" data-fade data-d="3">
