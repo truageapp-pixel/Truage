@@ -50,8 +50,8 @@ export default function Home() {
             <span className="nav__brand">TRUAGE</span>
           </a>
           <div className="nav__right">
-            <a href="#features" className="nav__link">Features</a>
-            <AppStoreBadge width={132} id="nav-cta" />
+            <a href="#features" className="nav__link hide-mobile">Features</a>
+            <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="btn-get-app">Get App</a>
           </div>
         </div>
       </nav>
