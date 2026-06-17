@@ -51,7 +51,6 @@ export default function Home() {
           </a>
           <div className="nav__right">
             <a href="#features" className="nav__link">Features</a>
-            <a href="#creators" className="nav__link">Reviews</a>
             <AppStoreBadge width={132} id="nav-cta" />
           </div>
         </div>
@@ -107,37 +106,6 @@ export default function Home() {
       </section>
 
       {/* ═══ INFLUENCERS MASONRY GRID ═══ */}
-      <section className="influencers" id="creators">
-        <div className="container">
-          <h2 className="influencers__title" data-fade>Used by your favorite skincare creators 👀</h2>
-          <div className="influencers__grid">
-            {/* Using standard img tags for external placeholders to avoid next/image domain errors */}
-            <div className="inf-card" data-fade data-d="1">
-              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80" alt="Creator" className="inf-card__img" />
-              <div className="inf-card__overlay">
-                <div className="inf-card__quote">"I cut 5 products from my routine after tracking my Truage score."</div>
-                <div className="inf-card__name">Mia K. • @miaglows</div>
-              </div>
-            </div>
-            
-            <div className="inf-card" style={{ transform: "translateY(24px)" }} data-fade data-d="2">
-              <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80" alt="Creator" className="inf-card__img" />
-              <div className="inf-card__overlay">
-                <div className="inf-card__quote">"Finally a way to see if my expensive serums are actually working."</div>
-                <div className="inf-card__name">David L. • @skindavid</div>
-              </div>
-            </div>
-
-            <div className="inf-card" data-fade data-d="3">
-              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Creator" className="inf-card__img" />
-              <div className="inf-card__overlay">
-                <div className="inf-card__quote">"My biological skin age dropped by 3 years in just two months!"</div>
-                <div className="inf-card__name">Sarah J. • @sarahskin</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* ═══ FEATURES SPLIT 1 ═══ */}
       <section className="feat" id="features">
