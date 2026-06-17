@@ -146,11 +146,11 @@ p { color: var(--text-muted); line-height: 1.7; font-weight: 400; }
   font-weight: 800; line-height: 1.05; letter-spacing: -0.03em;
   margin-bottom: 24px;
 }
-.hero__sub {
+.hero__p {
   font-size: 1.1rem; color: var(--text-muted);
   max-width: 480px; line-height: 1.6; margin-bottom: 40px;
 }
-.hero__ctas { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.hero__ctas { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-top: 16px; }
 
 .hero__vis { 
   display: flex; justify-content: flex-start; align-items: center; position: relative; 
