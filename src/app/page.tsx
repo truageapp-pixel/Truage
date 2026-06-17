@@ -74,8 +74,8 @@ export default function Home() {
             </div>
 
             <h1 className="hero__h1" data-fade data-d="1">
-              Proof your skincare is <br />
-              <span className="text-gradient">slowing down time</span>.
+              Meet Truage.<br />
+              Proof your skincare is <span className="text-gradient">slowing down time</span>.
             </h1>
             <p className="hero__p" data-fade data-d="2">
               No more wondering if those expensive serums are actually doing their job. Truage uses <strong>clinical-grade AI</strong> to track your biological skin age—giving you the ultimate peace of mind that your routine is working.
