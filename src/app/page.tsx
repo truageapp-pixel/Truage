@@ -81,9 +81,8 @@ export default function Home() {
               Go beyond the calendar. Use AI facial analysis to reveal your biological age and see if your skincare routine is actually working.
             </p>
 
-            <div className="hero__ctas" data-fade data-d="3" style={{ display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
-              <a href="#features" className="btn-primary">Find Out Your Age</a>
-              <AppStoreBadge width={135} id="hero-badge" />
+            <div className="hero__ctas" data-fade data-d="3">
+              <AppStoreBadge width={160} id="hero-badge" />
             </div>
           </div>
 
